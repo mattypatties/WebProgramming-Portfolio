@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;/* Sets the font to a sans-serif typeface */
+    text-align: center;/* Centers the text on the page */
+    background-color: #f6f6f6;
+}
+
+  
+  body {
+    margin: 100px auto;/* Adds a top and bottom margin of 100px and centers horizontally */
+    width: max-content;/* Adjusts the width to fit the content */
+  }
+
+.image-container {
+    margin: 20px;/* Adds spacing around each container */
+    display: inline-block;/* Ensures containers are aligned horizontally */
+}
+
+img {
+    border-radius: 8px;/* Rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(116, 157, 223, 0.1);/* Adds a shadow effect */
+    margin-bottom: 10px; /* Spacing below the image */
+    filter: grayscale(80%) brightness(1.1);/* Grayscale effect and slightly increases brightness */ 
+}
+
+.license {
+    font-size: 0.8em;/* Reduces the font size for the license text */
+    color: #789;/* Sets a grayish tone for the text */
+}

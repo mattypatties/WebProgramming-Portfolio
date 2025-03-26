@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;/* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 0;/* Adds vertical padding */
+    text-align: center;/* Centers the navigation links */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;/* Removes underlining from links */
+    padding: 10px 20px;/* Adds padding around each link */
+}
+/* Changes background color when hovering over the links */
+nav a:hover {
+    background-color: #444;
+}
+
+.section {
+    width: 80%;/* Sets the width of the section to 80% of the parent container */
+    margin: 20px auto;/* Centers the section horizontally with 20px margin on top and bottom */
+    background-color: #fff;
+    padding: 20px;/* Adds padding inside the section */
+    border-radius: 8px;/* Rounds the corners of the section */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);/* Adds a subtle shadow effect */
+}
+
+h1, h2 {
+    color: #555;
+    text-align: center;/* Centers the headings */
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;/* Removes the button border */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;/* Removes underlining */
+    display: inline-block;/* Ensures the button behaves like an inline-block element */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;/* Changes cursor to pointer when hovering over the button */
+    border-radius: 12px;
+}
+/* Changes the background color when hovering over the button */
+.button:hover {
+    background-color: #0077a3;
+}

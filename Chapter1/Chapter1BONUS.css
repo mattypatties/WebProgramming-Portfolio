@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    margin: 20px; /* Adds space around the content */
+    background-color: #d0e9f5; 
+    color: #272626; 
+}
+h1, h2 {
+    color: #555; /* Sets the color of h1 and h2 headings to a medium gray */
+}
+h1 {
+    text-align: center;/* Centers the main heading */
+    margin-bottom: 25px;/* Adds space below the main heading */
+}
+/* Styles for the unordered list */
+ul {
+    list-style-type: disc; /* Uses bullet points for list items */
+    margin-bottom: 20px;/* Adds space below the list */
+}
+/* Styles for ordered lists */
+ol {
+    list-style-type: decimal; /* Uses numbers for list items */
+}
+.container { 
+    max-width: 800px;/* Sets the maximum width of the container */
+    margin: 0 auto;/* Centers the container horizontally */
+    background-color: rgb(198, 221, 220);
+    padding: 30px;/* Adds padding inside the container */
+    border-radius: 8px; /* Add curved corners */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow effect */
+}

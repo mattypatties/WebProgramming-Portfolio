@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: #ecf0f1;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.soundboard {
+    display: grid; /*displays a grid template so that it's easier to format*/
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /*adjust the size of the buttons*/
+    gap: 15px;/*gap between the buttons*/
+    flex-grow: 1; /* allows the buttons to expand */
+}
+
+.sample-button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px; /* curved corners*/
+    cursor: pointer;/*changes your cursor when you hover on the buttons*/
+    font-size: 20px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /*Smooth hover effect*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sample-button:hover { /*hover color changes*/
+    background-color: #2980b9;
+    color: #f1c40f;
+}

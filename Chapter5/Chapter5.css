@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+    margin: 0; /* Remove default body margin */
+    background-color: #f0f0f0;
+  }
+  
+  video {
+    max-width: 80%; 
+    max-height: 80vh; 
+    display: block; /* Remove any inline spacing */
+  }

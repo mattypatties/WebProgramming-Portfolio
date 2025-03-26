@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    padding: 0;/* Removes default padding */
+    background-color: #ffffff;
+    color: black;/* Default text color */
+}
+
+.menu {
+    background-color: #17072b;  /* Dark background for the menu */
+    overflow: hidden;/* Prevents floating issues */
+    }        
+    .menu a { /* The items in the navigation bar */
+        float:none; /* Ensures links do not float */
+        color:white; 
+        text-align: center;  
+        padding: 15px;  
+        text-decoration: none;  /* Removes underline from links */
+        font-size: 17px; 
+    }
+    .menu a:hover {/*Hover over the items in the navigation bar*/
+        background-color:rgb(123, 170, 252);  
+        color: black;
+        }
+            .menu header {
+                font-size: 300%;/* Large font size for header */
+                text-align: center;
+                color: white;
+                margin: 2%;/* Adds margin around header */
+                text-decoration: underline;/* Underlines header text */
+                font-family: tahoma;/* Uses Tahoma font */
+                font-weight: bold;/* Makes text bold */
+            }
+            .menu nav{
+                text-align: center;/* Centers navigation content */
+            }
+            
+section {
+    float: left;/* Aligns section to the left */
+    margin: 0;/* No margin */
+    width: 790px;/* Sets width of the section */
+    
+}
+    section .code {
+    float: left;/* Aligns image to the left */
+    width: 814px; /* Image width */
+    }
+    section h2 {
+        color: black;
+        text-decoration: underline;/* Underlines heading */
+        font-family: tahoma;
+    }
+
+/* Sidebar styling */
+aside{
+    background-color: #172d67;
+    float: right;/* Aligns sidebar to the right */
+    margin-top: 20px;
+    width: 429px;
+}
+    aside li{
+        color: white;
+        padding: 20px;/* Adds space inside list items */
+    }
+    aside h2{
+        color:white;
+        text-decoration: underline;/* Underlines heading */
+        margin-left: 15px;/* Adds left margin */
+        font-family: tahoma;
+    }
+    aside .hardware {
+        float: none;
+        width: 145px;/* Image width */
+        margin-left: 30px;/* Adds left margin */
+        margin-bottom: 30px;/* Adds space below element */
+    }
+    aside .hardware2 {
+        float: none;
+        width: 220px;/* Image width */
+        margin-left: 2px;/* Adds left margin */
+        margin-bottom: 30px;/* Adds space below element */
+       
+    }
+
+footer p{
+    position: fixed;/* Fixes footer at the bottom */
+    left: 0;/* Aligns to the left */
+    bottom: 0;/* Sticks to the bottom */
+    width: 100%;/* Full width */
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}

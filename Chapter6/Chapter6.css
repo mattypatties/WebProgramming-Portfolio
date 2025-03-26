@@ -1,0 +1,40 @@
+#calculator {
+    max-width: 200px;
+    background-color: rgb(87, 87, 87);
+    padding: 30px;
+    border-radius: 8px; /*Curved corners*/
+    box-shadow: 0 0 30px rgba(212, 212, 212, 0.122); /* Soft glowing shadow effect */
+    color: white;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: auto; /* Centers automatically */
+    
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+}
+
+#calculateButton {
+    width: 100px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    color: rgb(42, 40, 40);
+    border: none;/* Removes default border */
+    border-radius: 4px;/* Slightly rounded corners */
+    cursor: pointer;/* Changes cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin: auto;/* Centers the button */
+    display: block;/* Makes the button take up full line width */
+}
+
+#calculateButton:hover {
+    background-color: #a2c5ea;/* Changes background color on hover */
+}
+
+#totalCost {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #e0e0e0;
+}
