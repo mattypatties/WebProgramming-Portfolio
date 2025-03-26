@@ -1,0 +1,64 @@
+div {/* Styling for all div elements */
+    width: 100px;
+    height: 100px;
+    display: flex;/* Uses flexbox for layout */
+    justify-content: center;/* Centers content horizontally */
+    align-items: center;/* Centers content vertically */
+    margin: 30px;
+    border: 2px solid black;
+    margin-right: 20px;
+    gap: 20px; /* Adds 20px of space between flex items */ 
+    margin-top: 10%;
+  }
+  
+  .a {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    box-shadow: 10px 10px 5px red;/* Adds a shadow with a red color */
+    margin-right: 20px;
+    
+  }
+  
+  .b {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid ;
+    border-color: rgb(68, 248, 68);
+    box-shadow: 10px 10px 5px inset black;/* Inset black shadow inside the box (inset)*/
+    margin-right: 20px;
+  }
+  
+  .c {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-radius: 10%;
+    box-shadow: 
+    0 0 0 5px orange, 
+    0 0 0 15px Blue, 
+    0 0 0 25px Red, 
+    0 0 0 35px green;/* Multiple layered colored borders using box-shadow */
+    margin-right: 20px;
+    border: 0px;
+  }
+
+  .d {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    text-shadow: 5px 5px 5px black;/* Adds a black text shadow with an offset*/
+  }
+  body {
+    display: flex;/* Uses flexbox for layout */
+    flex-wrap: wrap; /* Allows elements to wrap to the next row */
+    justify-content: center; /* Centers content horizontally */
+    align-items: flex-start; /* Allows elements to wrap to the next row */
+    min-height: 100vh;
+    margin: 0;
+  }
